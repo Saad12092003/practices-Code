@@ -205,6 +205,7 @@ for (int i = 0; i < n; i++) {
     cin >> a[i];
 }
 
+
 for (int i = 0; i < n; i++) {
     expr += to_string(a[i]);
     if (i < n - 1) expr += oper[i % 12];
